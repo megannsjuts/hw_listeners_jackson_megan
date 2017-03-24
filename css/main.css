@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #CFDBC5;
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container {
+	margin: auto;
+	max-width: 1000px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: justify;
+	padding: 30px;
+	line-height: 30px;
+}
+
+h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	color: #f88379;
+}
+
+figcaption {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+
+figure img {
+	margin: 0px auto;
+	height: auto;
+	width: 100%;
+	border-radius: 10px;
+}
