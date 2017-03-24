@@ -6,10 +6,52 @@ body {
 	margin: auto;
 }
 
+form {
+	margin: auto;
+	text-align: center;
+}
+
 input, textarea {
 	width: 330px;
+	border-radius: 3px;
+	border: #D3D3D3;
+}
+
+label, input, textarea {
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #submit {
 	width: 100px;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #3F3F3F;
+	border-color: white solid 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 3px;
+}
+
+#submit:hover {
+	width: 100px;
+	padding: 10px;
+	margin-top: 30px;
+	background: white;
+	border-color: #3F3F3F solid 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: #CFDBC5;
+	letter-spacing: 3px;
 }
