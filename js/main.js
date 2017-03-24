@@ -1,9 +1,9 @@
-document.addEventListener('submit', function () {
+document.addEventListener('submit', function (text) {
 	text.preventDefault();
-	console.log('The firstName is: ')
-	console.log('The lastName is: ')
-	console.log('The email is: ')
-	console.log('The message is: ')
+	console.log('The firstName is: ' + firstNameInput.value);
+	console.log('The lastName is: ' + lastNameInput.value);
+	console.log('The email is: ' + emailInput.value);
+	console.log('The message is: ' + messageInput.value);
 });
 
 var firstNameInput = document.getElementById('firstName');
