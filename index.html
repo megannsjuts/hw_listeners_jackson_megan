@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="container"></div>
+	<div class="container">
+		<form method="post" action="form.php">
+			<label for="firstName">FIRST NAME</label>
+			<input type="text" name="firstName" id="firstName" placeholder="YOUR FIRST NAME" />
+
+			<label for="lastName">LAST NAME</label>
+			<input type="text" name="lastName" id="lastName" placeholder="YOUR LAST NAME" />
+
+			<label for="email">EMAIL</label>
+			<input type="email" name="email" id="email" placeholder="YOUR EMAIL" />
+
+			<label for="message">MESSAGE</label>
+			<textarea name="message" id="message" rows="10" placeholder="YOUR MESSAGE"></textarea>
+
+			<input type="submit" name="submit" id="submit" value="submit" />
+		</form>
+	</div>
 
 
 
