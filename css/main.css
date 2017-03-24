@@ -5,3 +5,11 @@ body {
 .container {
 	margin: auto;
 }
+
+input, textarea {
+	width: 330px;
+}
+
+#submit {
+	width: 100px;
+}
